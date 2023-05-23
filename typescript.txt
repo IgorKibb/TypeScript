@@ -1,0 +1,7 @@
+Em todo projeto com typescript, devemos adicionar o tsconfig.json, principalmente
+na pasta raiz do projeto.
+
+Na variave colocamos o tipo de dados que estamos referenciando, por exemplo,
+let mensagem: string = 'Hello, wolrd!';
+
+tsc --init = irá gerar o tsconfig.json. 
