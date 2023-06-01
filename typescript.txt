@@ -1,3 +1,6 @@
+curso grátis da microsoft:
+https://learn.microsoft.com/pt-br/training/paths/build-javascript-applications-typescript/?WT.mc_id=javascript-23355-gllemos
+
 Em todo projeto com typescript, devemos adicionar o tsconfig.json, principalmente
 na pasta raiz do projeto.
 
@@ -5,3 +8,16 @@ Na variave colocamos o tipo de dados que estamos referenciando, por exemplo,
 let mensagem: string = 'Hello, wolrd!';
 
 tsc --init = irá gerar o tsconfig.json. 
+
+typescript é altamente tipado, por isso podemos especificar o tipos de variáveis.
+paramentro de funções, propriedades de objetos. Type Annotation [rever].
+ex: let nomevariavel: TypeAnnotation = valor;
+
+Boolean ≠ boolean. Boolean com b miúsculo é um tipo objeto, por isso é recomendado usar
+com b minúsculo.
+
+tipo bigiit somente disponível a partir do es2020 ou esnext. por isso é necessário
+alterar o target do tsconfig.
+
+tuple type = coleção heterogênea de valores. armazenamento de campos de diferentes tipos.
+também podem ser passadas como parâmentro par funções.
