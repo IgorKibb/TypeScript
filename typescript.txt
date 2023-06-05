@@ -21,3 +21,15 @@ alterar o target do tsconfig.
 
 tuple type = coleção heterogênea de valores. armazenamento de campos de diferentes tipos.
 também podem ser passadas como parâmentro par funções.
+
+enum ype = enumerar os valores. estrutura de dados não ordenados. mapeiam chaves para valores.
+"Objetos com chaves fixas". o typescrip suporta enums numéricos e baseados em strings.
+
+any é padrão do typescript. evitar ao máximo usar o tipo any.
+
+unknown é mais recomendado do que o tipo any. unknown verifica o tipo antes de executar, mesmo sem sabermos qul é o tipo.
+
+tipo void retorna nenhum valor. o void é o oposto do tipo any. o tipo void terá ausência de qualquer tipo.
+melhora a clareza do código. garante a segurança do tipo. não retornará nenhum dado ou valor.
+
+null
