@@ -44,3 +44,5 @@ podem ser anônimos ou nomeados.
 object minusculo: representa qualquer valor que não seja primitivo.
 Object maiusculo: descreve a funcionalidade disponível em todos os objetos.
 {} --object vazio--: se refere ao objeto que não possui propriedade própria.
+
+switch case valida uma intsrução com várias condições.
