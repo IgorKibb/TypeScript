@@ -1,0 +1,17 @@
+Na verdade, você pode converter um arquivo JavaScript em um arquivo TypeScript apenas 
+renomeando a extensão de .js para .ts.
+
+"noImplicitAny": true,  no tsconfig instrui o compilador a gerar erros em expressões e declarações com um 
+tipo any implícito.
+
+
+Atualize o arquivo tsconfig.json para que o compilador salve todos os arquivos JavaScript em uma nova pasta.
+
+a. No painel Explorador, crie uma pasta chamada build em seu projeto.
+b. No arquivo tsconfig.json, procure a opção outDir, remova o comentário e defina o parâmetro para build.
+Quando você executa o comando tsc em apenas um arquivo, o compilador ignora o arquivo tsconfig.json.
+
+Lembre-se de que toda a conveniência do any vem ao custo da perda da segurança de tipos. 
+A segurança de tipos é uma das principais motivações para usar o TypeScript. 
+Evite usar any quando não for necessário.
+

@@ -1,0 +1,43 @@
+O TypeScript tem mais recursos de codificação que você não encontrará em JavaScript:
+
+Interfaces
+Namespaces
+Genéricos
+Classes abstratas
+Modificadores de dados
+Opcionais
+Sobrecarga de função
+Decoradores
+Utilitários de tipo
+Palavra-chave readonly
+
+ASSERÇÃO DE TIPO:
+As asserções de tipo têm duas formas. Uma é a as-sintaxe:
+(randomValue as string).toUpperCase();
+A outra versão é a sintaxe "colchete angular":
+(<string>randomValue).toUpperCase();
+
+****EXEMPLO****
+let randomValue: unknown = 10;
+
+randomValue = true;
+randomValue = 'Mateo';
+
+if (typeof randomValue === "string") {
+    console.log((randomValue as string).toUpperCase());    //* Returns MATEO to the console.
+} else {
+    console.log("Error - A string was expected here.");    //* Returns an error message.
+}
+
+TIPOS DE UNIÃO:
+Os tipos de união restringem a atribuição de valores aos tipos especificados na união, enquanto o 
+tipo any não tem restrições. Outro motivo é o suporte do IntelliSense.
+
+Um tipo de união usa a barra vertical (|) para separar cada tipo. No seguinte exemplo, 
+multiType pode ser um number ou um boolean:
+let multiType: number | boolean;
+multiType = 20;         //* Valid
+multiType = true;       //* Valid
+multiType = "twenty";   //* Invalid
+
+https://learn.microsoft.com/pt-br/training/modules/typescript-implement-interfaces/
