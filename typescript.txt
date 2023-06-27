@@ -46,3 +46,6 @@ Object maiusculo: descreve a funcionalidade disponível em todos os objetos.
 {} --object vazio--: se refere ao objeto que não possui propriedade própria.
 
 switch case valida uma intsrução com várias condições.
+
+Para usarmos o optional Paramenters devemos colocar o ?.
+ex: email?: sting;
