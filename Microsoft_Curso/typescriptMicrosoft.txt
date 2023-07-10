@@ -40,4 +40,13 @@ multiType = 20;         //* Valid
 multiType = true;       //* Valid
 multiType = "twenty";   //* Invalid
 
-https://learn.microsoft.com/pt-br/training/modules/typescript-implement-interfaces/
+-Interfaces:
+O único trabalho de uma interface é descrever um tipo.
+Depois de definir uma interface, você pode usá-la como um tipo e obter todos os benefícios 
+da verificação de tipo e do IntelliSense.
+
+As interfaces podem estender uma à outra. Isso permite que você copie os membros de uma interface 
+em outra, proporcionando a você mais flexibilidade na maneira de separar suas interfaces em 
+componentes reutilizáveis.
+
+https://learn.microsoft.com/pt-br/training/modules/typescript-develop-typed-functions/
