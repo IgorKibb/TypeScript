@@ -49,4 +49,4 @@ As interfaces podem estender uma à outra. Isso permite que você copie os membr
 em outra, proporcionando a você mais flexibilidade na maneira de separar suas interfaces em 
 componentes reutilizáveis.
 
-https://learn.microsoft.com/pt-br/training/modules/typescript-develop-typed-functions/
+https://learn.microsoft.com/pt-br/training/modules/typescript-declare-instantiate-classes/
